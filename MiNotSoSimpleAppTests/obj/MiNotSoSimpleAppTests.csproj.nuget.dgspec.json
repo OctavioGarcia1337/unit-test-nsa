@@ -1,103 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "h:\\GitHub\\ingsw3-2004033-2023\\trabajos\\09-pruebas-unidad\\MiNotSoSimpleAppTests\\MiNotSoSimpleAppTests.csproj": {}
+    "/Users/pedrofernandez/Desktop/Facu Pedro/Ing de Software III/ing-sw-3/09-pruebas-unitarias/MiNotSoSimpleAppTests/MiNotSoSimpleAppTests.csproj": {}
   },
   "projects": {
-    "h:\\GitHub\\ingsw3-2004033-2023\\trabajos\\09-pruebas-unidad\\MiNotSoSimpleAppTests\\MiNotSoSimpleAppTests.csproj": {
+    "/Users/pedrofernandez/Desktop/Facu Pedro/Ing de Software III/ing-sw-3/09-pruebas-unitarias/MiNotSoSimpleApp/MiNotSoSimpleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "h:\\GitHub\\ingsw3-2004033-2023\\trabajos\\09-pruebas-unidad\\MiNotSoSimpleAppTests\\MiNotSoSimpleAppTests.csproj",
-        "projectName": "MiNotSoSimpleAppTests",
-        "projectPath": "h:\\GitHub\\ingsw3-2004033-2023\\trabajos\\09-pruebas-unidad\\MiNotSoSimpleAppTests\\MiNotSoSimpleAppTests.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "h:\\GitHub\\ingsw3-2004033-2023\\trabajos\\09-pruebas-unidad\\MiNotSoSimpleAppTests\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net7.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
-            "projectReferences": {
-              "h:\\GitHub\\ingsw3-2004033-2023\\trabajos\\09-pruebas-unidad\\MiNotSoSimpleApp\\MiNotSoSimpleApp.csproj": {
-                "projectPath": "h:\\GitHub\\ingsw3-2004033-2023\\trabajos\\09-pruebas-unidad\\MiNotSoSimpleApp\\MiNotSoSimpleApp.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
-          "dependencies": {
-            "Microsoft.NET.Test.Sdk": {
-              "target": "Package",
-              "version": "[17.7.1, )"
-            },
-            "Moq": {
-              "target": "Package",
-              "version": "[4.20.69, )"
-            },
-            "NUnit": {
-              "target": "Package",
-              "version": "[3.13.3, )"
-            },
-            "NUnit.Analyzers": {
-              "target": "Package",
-              "version": "[3.6.1, )"
-            },
-            "NUnit3TestAdapter": {
-              "target": "Package",
-              "version": "[4.4.2, )"
-            },
-            "coverlet.collector": {
-              "target": "Package",
-              "version": "[3.2.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "h:\\GitHub\\ingsw3-2004033-2023\\trabajos\\09-pruebas-unidad\\MiNotSoSimpleApp\\MiNotSoSimpleApp.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "h:\\GitHub\\ingsw3-2004033-2023\\trabajos\\09-pruebas-unidad\\MiNotSoSimpleApp\\MiNotSoSimpleApp.csproj",
+        "projectUniqueName": "/Users/pedrofernandez/Desktop/Facu Pedro/Ing de Software III/ing-sw-3/09-pruebas-unitarias/MiNotSoSimpleApp/MiNotSoSimpleApp.csproj",
         "projectName": "MiNotSoSimpleApp",
-        "projectPath": "h:\\GitHub\\ingsw3-2004033-2023\\trabajos\\09-pruebas-unidad\\MiNotSoSimpleApp\\MiNotSoSimpleApp.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "h:\\GitHub\\ingsw3-2004033-2023\\trabajos\\09-pruebas-unidad\\MiNotSoSimpleApp\\obj\\",
+        "projectPath": "/Users/pedrofernandez/Desktop/Facu Pedro/Ing de Software III/ing-sw-3/09-pruebas-unitarias/MiNotSoSimpleApp/MiNotSoSimpleApp.csproj",
+        "packagesPath": "/Users/pedrofernandez/.nuget/packages/",
+        "outputPath": "/Users/pedrofernandez/Desktop/Facu Pedro/Ing de Software III/ing-sw-3/09-pruebas-unitarias/MiNotSoSimpleApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/pedrofernandez/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -150,7 +67,98 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/pedrofernandez/Desktop/Facu Pedro/Ing de Software III/ing-sw-3/09-pruebas-unitarias/MiNotSoSimpleAppTests/MiNotSoSimpleAppTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/pedrofernandez/Desktop/Facu Pedro/Ing de Software III/ing-sw-3/09-pruebas-unitarias/MiNotSoSimpleAppTests/MiNotSoSimpleAppTests.csproj",
+        "projectName": "MiNotSoSimpleAppTests",
+        "projectPath": "/Users/pedrofernandez/Desktop/Facu Pedro/Ing de Software III/ing-sw-3/09-pruebas-unitarias/MiNotSoSimpleAppTests/MiNotSoSimpleAppTests.csproj",
+        "packagesPath": "/Users/pedrofernandez/.nuget/packages/",
+        "outputPath": "/Users/pedrofernandez/Desktop/Facu Pedro/Ing de Software III/ing-sw-3/09-pruebas-unitarias/MiNotSoSimpleAppTests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/pedrofernandez/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/pedrofernandez/Desktop/Facu Pedro/Ing de Software III/ing-sw-3/09-pruebas-unitarias/MiNotSoSimpleApp/MiNotSoSimpleApp.csproj": {
+                "projectPath": "/Users/pedrofernandez/Desktop/Facu Pedro/Ing de Software III/ing-sw-3/09-pruebas-unitarias/MiNotSoSimpleApp/MiNotSoSimpleApp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.6.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.69, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.6.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
         }
       }
     }

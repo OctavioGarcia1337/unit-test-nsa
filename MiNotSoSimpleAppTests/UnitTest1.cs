@@ -14,13 +14,13 @@ namespace MiNotSoSimpleAppTests
     public class ApiServiceTests
     {
         [Test]
-        public async Task GetMyModelsAsync_ReturnsCorrectNumberOf2Items()
+        public async Task GetMyModelsAsync_ReturnsDataFromHttpClient()
         {
             // Arrange
             var serviceCollection = new ServiceCollection();
             var mockResponse = new HttpResponseMessage(HttpStatusCode.OK)
             {
-                Content = new StringContent("[{ \"UserId\": 1, \"Id\": 1, \"Title\": \"Test Title\", \"Body\": \"Test Body\" }, { \"UserId\": 2, \"Id\": 2, \"Title\": \"Test Title\", \"Body\": \"Test Body\" }]")
+                Content = new StringContent("[{ \"UserId\": 1, \"Id\": 1, \"Title\": \"Test Title\", \"Body\": \"Test Body\" }]")
             };
 
             var mockHttpMessageHandler = new Mock<HttpMessageHandler>();
@@ -38,7 +38,8 @@ namespace MiNotSoSimpleAppTests
 
             // Assert
             Assert.IsNotNull(result);
-            Assert.AreEqual(2, result.Count());
+            Assert.AreEqual(1, result.Count());
+            Assert.AreEqual("Test Title", result.FirstOrDefault().Title);
         }
     }
 }
