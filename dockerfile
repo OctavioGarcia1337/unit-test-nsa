@@ -5,16 +5,16 @@ EXPOSE 80
 
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /src
-COPY ["MiProyectoWebAPI.csproj", "."]
-RUN dotnet restore "./MiProyectoWebAPI.csproj"
+COPY ["MiNotSoSimpleApp.csproj", "."]
+RUN dotnet restore "./MiNotSoSimpleApp.csproj"
 COPY . .
 WORKDIR "/src/."
-RUN dotnet build "MiProyectoWebAPI.csproj" -c Release -o /app/build
+RUN dotnet build "MiNotSoSimpleApp.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "MiProyectoWebAPI.csproj" -c Release -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "MiNotSoSimpleApp.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "MiProyectoWebAPI.dll"]
+ENTRYPOINT ["dotnet", "MiNotSoSimpleApp.dll"]
