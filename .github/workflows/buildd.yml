@@ -19,7 +19,9 @@ jobs:
         dotnet-version: 7.0.x
 
     - name: Build and test
-      run: echo "me canse no me anda el build"
+      run: |
+        dotnet build
+        dotnet test
       
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag ${{ secrets.DOCKERHUB_USERNAME }}/simple-web-api-gh:latest
